@@ -9,3 +9,11 @@ using RestTemplate. Find the Product microservice here https://github.com/jyotim
 Products microservice, fetching data from the customer(bestBuy) microservice using @kafkaListener and saving the data into the DB.
 On successfull save operation, it sends a notification to the customer microservice using KafkaTemplate.
 Find the customer microservice here https://github.com/jyotimoydas/kafkaPocCustomer
+
+kafka cmd commands:
+
+For Zookeeper
+zookeeper-server-start.bat ..\..\config\zookeeper.properties
+
+For Server
+kafka-server-start.bat ..\..\config\server.properties
