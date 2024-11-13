@@ -1,5 +1,5 @@
-This is just a basic POC for KAFKA and Sharing of data between different microservices.
-*********************************************************************************************
+This is just a basic POC for KAFKA and Sharing of data between different microservices using Spring Boot.
+***********************************************************************************************************
 
 Customer microservice sends the the JSON to be saved in the product microservice. After success/failed transaction
 it gets a notification from Products Microservice. It also gets all the list of products saved in the product microservice
