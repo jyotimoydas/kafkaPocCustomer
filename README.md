@@ -12,8 +12,10 @@ Find the customer microservice here https://github.com/jyotimoydas/kafkaPocCusto
 
 kafka cmd commands:
 
-For Zookeeper
+For Zookeeper:
+
 zookeeper-server-start.bat ..\..\config\zookeeper.properties
 
-For Server
+For kafka Server:
+
 kafka-server-start.bat ..\..\config\server.properties
